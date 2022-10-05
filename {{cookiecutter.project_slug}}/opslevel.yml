@@ -1,0 +1,17 @@
+---
+version: 1
+service:
+  name: {{ cookiecutter.project_name }}
+  lifecycle: generally_available
+  owner: order_management_team
+  language: 
+  framework: 
+  description: {{ cookiecutter.project_short_description }}
+  aliases:
+  tags:
+  - key: version
+    value: {{ cookiecutter.version }}
+  - key: command_line_interface
+    value: {{ cookiecutter.command_line_interface }}
+  - key: open_source_license
+    value: {{ cookiecutter.open_source_license }}
